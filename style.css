@@ -1,0 +1,88 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+        font-weight: 400;
+        font-size: 1.5rem;
+        line-height: 1.5;
+        color: #ff9900;
+        text-align: center;
+        background-color: #856404;
+}
+.h1, h1{
+    margin-top: 2.5rem;
+    text-align: center;
+    font-style: italic;
+    color: #fff;
+}
+.hero container{
+    margin: 0%;
+    padding: 0%;
+}
+.hero-section {
+    height: 40vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: none;
+    text-align: center;
+}
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+.hero-section img {
+    max-height: 80%;
+    object-fit: cover;
+    width: 80%;
+    
+}
+
+.btn-primary {                                        
+    background-color: #ff9900;
+    border: none;
+    align-content: center;
+}
+
+.btn-group-lg>.btn, .btn-lg {
+    padding: .4rem 1.5rem;
+    font-size: 1.25rem;
+    line-height: 1.0;
+    border-radius: .2rem
+    
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    align-items: center;
+}
+
+.btn-primary:hover {
+    background-color: #e60060;
+}
+
+.menu-section{
+    margin: auto;
+}
+.menu-section .card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.about-us-section img {
+    max-width: 100%;
+    height: auto;
+}
+
+.footer a {
+    font-size: 1.5rem;
+    
+}
